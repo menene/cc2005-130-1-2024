@@ -1,3 +1,12 @@
+#==========================================================
+# Universidad del Valle de Guatemala
+# Algoritmos y progra basica
+# Seccion 70
+# 
+# Erick Marroquin - 123456
+# Variables y operadores
+#==========================================================
+
 
 variable1 = "Esta es mi primera variable"
 
