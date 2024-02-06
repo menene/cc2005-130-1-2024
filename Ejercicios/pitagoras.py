@@ -1,5 +1,14 @@
-import math
+#==========================================================
+# Universidad del Valle de Guatemala
+# Algoritmos y progra basica
+# Seccion 130
+# 
+# Erick Marroquin - 123456
+# Solicion del ejercicio individual 1 - Pitagoras
+# 05/02/24
+#==========================================================
 
+import math
 
 modo = input("¿Conoces la hipotenusa? ")
 

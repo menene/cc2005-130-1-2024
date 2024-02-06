@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="erickmarroquin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-05 11:48:11 AM"/>
+        <attribute name="created" value="ZXJpY2ttYXJyb3F1aW47RVJJQ0tTLU0yLVBSTzsyMDI0LTAyLTA1OzA1OjMwOjIyIEFNOzM2Nzk="/>
+        <attribute name="edited" value="ZXJpY2ttYXJyb3F1aW47RVJJQ0tTLU0yLVBSTzsyMDI0LTAyLTA1OzExOjQ4OjExIEFNOzE7Mzc5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <declare name="modo" type="String" array="False" size=""/>
+            <output expression="&quot;&#191;Conoces la hipotenusa?&quot;" newline="True"/>
+            <input variable="modo"/>
+            <if expression="modo==&quot;si&quot;">
+                <then>
+                    <output expression="&quot;Ingresa el valor de la hipotenusa&quot;" newline="True"/>
+                    <input variable="c"/>
+                    <output expression="&quot;Ingresa el valor del cateto B&quot;" newline="True"/>
+                    <input variable="b"/>
+                    <assign variable="a" expression="sqrt(c*c-b*b)"/>
+                    <output expression="&quot;El valor del cateto A es:&quot;" newline="True"/>
+                    <output expression="a" newline="True"/>
+                    <comment text="Hipotenusa conocida"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ingresa el valor del cateto A&quot;" newline="True"/>
+                    <input variable="a"/>
+                    <output expression="&quot;Ingresa el valor del cateto B&quot;" newline="True"/>
+                    <input variable="b"/>
+                    <assign variable="c" expression="sqrt(a*a+b*b)"/>
+                    <output expression="&quot;El valor de la hipotenusa es:&quot;" newline="True"/>
+                    <output expression="c" newline="True"/>
+                    <comment text="Hipotenusa desconocida"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

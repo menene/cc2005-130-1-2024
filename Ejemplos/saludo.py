@@ -1,14 +1,11 @@
-# ========================================
-# === Universidad del Valle de Guatemala
-# === cc2005
-# === Sección 130
-# ===
-# === Erick Marroquín
-# ===
-# === Programa que hace un pequeño saludo
-# ========================================
-
-
+#==========================================================
+# Universidad del Valle de Guatemala
+# Algoritmos y progra basica
+# Seccion 130
+# 
+# Erick Marroquin - 123456
+# Hace un pequenio saludo
+#==========================================================
 
 #puedes cambiar este mensaje al que tu quieras
 saludo = "Que bueno fué verte"
